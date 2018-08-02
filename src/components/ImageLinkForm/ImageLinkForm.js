@@ -1,0 +1,20 @@
+import React from 'react';
+import './ImageLinkForm.css';
+
+const ImageLinkForm = ({onInputChange, onButtonSubmit}) => {
+	return(
+		<div>
+			<p className="f3 pt">
+				{'This Magic Brain will detect faces in your pictures,Give it a try!'}
+			</p>
+			<div className="center">
+				<div className="form center pa4 br3 shadow-5">
+				<input className="input-url f4 pa2 w-70 center" type="text" onChange={onInputChange} />
+				<button className="btn-detect w-30 f5 pointer" onClick={onButtonSubmit}>Detect</button>
+				</div>
+			</div>
+		</div>
+		);
+}
+
+export default ImageLinkForm;
