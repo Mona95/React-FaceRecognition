@@ -13,4 +13,4 @@ demo : https://dreamy-meninsky-54543a.netlify.com/
 - user can signup/signin
 - application takes a picture from user and and will detect if any `face` exists in it .
 
-![app-image](https://tinyurl.com/yxwasfkf)
+![app-image](./face-rec-app.png)
